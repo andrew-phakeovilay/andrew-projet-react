@@ -24,13 +24,13 @@ export function Navbar(){
                             <div className="flex-1 flex justify-center">
                                 <div className="flex space-x-6">
                                     <Link
-                                        to="/andrew-projet-react/"
+                                        to="/"
                                         className="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-white/5 hover:text-white"
                                     >
                                         Home
                                     </Link>
                                     <Link
-                                        to="/andrew-projet-react/bookmarks"
+                                        to="/bookmarks"
                                         className="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-white/5 hover:text-white"
                                     >
                                         Bookmarks

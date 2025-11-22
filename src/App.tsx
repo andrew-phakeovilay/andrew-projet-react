@@ -15,14 +15,14 @@ function App() {
       <ThemeProvider>
         <StoreProvider>
           <BookmarkProvider>
-            <BrowserRouter>
+            <BrowserRouter basename="/andrew-projet-react">
     
               <Navbar/>
     
               <Routes>
-                <Route path="/andrew-projet-react/" element={ <Home/> }/>
-                <Route path="/andrew-projet-react/game/:id" element={ <GameDetail/> }/>
-                <Route path="/andrew-projet-react/bookmarks" element={ <Bookmarks/> }/> 
+                <Route path="/" element={ <Home/> }/>
+                <Route path="/game/:id" element={ <GameDetail/> }/>
+                <Route path="/bookmarks" element={ <Bookmarks/> }/> 
               </Routes>
             </BrowserRouter>
           </BookmarkProvider>
