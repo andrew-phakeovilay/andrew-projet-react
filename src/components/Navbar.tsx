@@ -7,14 +7,6 @@ export function Navbar(){
 
     const toggleTheme = () => {
         setTheme(theme === "light" ? "dark" : "light");
-
-        if(theme === "light"){
-          document.body.classList.add("bg-gray-700");
-          document.body.classList.remove("bg-white");
-        }else{
-          document.body.classList.add("bg-white");
-          document.body.classList.remove("bg-gray-700");
-        }
     }
 
 
@@ -32,13 +24,13 @@ export function Navbar(){
                             <div className="flex-1 flex justify-center">
                                 <div className="flex space-x-6">
                                     <Link
-                                        to="/"
+                                        to="/andrew-projet-react/"
                                         className="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-white/5 hover:text-white"
                                     >
                                         Home
                                     </Link>
                                     <Link
-                                        to="/bookmarks"
+                                        to="/andrew-projet-react/bookmarks"
                                         className="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-white/5 hover:text-white"
                                     >
                                         Bookmarks
