@@ -32,7 +32,7 @@ export function GameDetail(){
     const gameDetail = useFetch<GameDetailType>(`https://www.cheapshark.com/api/1.0/games?id=${id}`);
 
     if(!gameDetail){
-        return <h1 className={theme === "light" ? "text-gray-700" : "text-gray-100"}>Loading...</h1>
+        return <h1 className={`mt-2 ${theme === "light" ? "text-gray-700" : "text-gray-100"}`}>Loading...</h1>
     }
     
     const now = new Date();
