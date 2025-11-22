@@ -1,0 +1,33 @@
+.game-img{
+    max-width: 230px!important;
+    max-height: 80px!important;
+    justify-self: center;
+    border-radius: 0.25rem;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+.middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+    color:white;
+    font-weight: 700;
+}
+
+.card-game:hover .game-img {
+    opacity: 0.3;
+}
+
+.card-game:hover .middle {
+    opacity: 1;
+}
+
+.text {
+  font-size: 16px;
+}
