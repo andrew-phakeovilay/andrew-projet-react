@@ -1,9 +1,9 @@
 import { useFetch } from "../customhooks/useFetch";
 import { useCallback, useMemo, useState } from "react";
 import { useBookmark } from "./BookmarkProvider";
-import type { Game } from "./Game";
 import { GameCard } from "./GameCard";
 import { useTheme } from "./ThemeProvider";
+import type { Game } from "../interfaces/Game";
 
 export function Games(props: {games: string, isBookmarkPage:boolean}) {
     const [sortOption, setSortOption] = useState("name-asc");

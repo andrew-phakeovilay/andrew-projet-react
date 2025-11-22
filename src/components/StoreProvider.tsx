@@ -1,6 +1,6 @@
 import { createContext, useContext } from "react";
-import type { Store } from "./Store";
 import { useFetch } from "../customhooks/useFetch";
+import type { Store } from "../interfaces/Store";
 
 interface StoreContextType {
   stores: Store[] | null;

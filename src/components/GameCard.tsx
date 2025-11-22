@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import type { Game } from "./Game";
+import type { Game } from "../interfaces/Game";
 import "./gameCard.css";
 import React from "react";
 

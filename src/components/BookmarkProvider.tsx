@@ -1,14 +1,5 @@
 import React, { createContext, useState, useContext, useEffect } from "react";
-
-interface Game {
-  gameID: string;
-  steamAppID: string;
-  cheapest: string;
-  cheapestDealID: string;
-  external: string;
-  internalName: string;
-  thumb: string;
-}
+import type { Game } from "../interfaces/Game";
 
 interface BookmarkContextType {
   bookmarks: Game[];
